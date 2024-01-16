@@ -6,7 +6,7 @@
     /* padding-left: ; */
     font-family: 'Mulish', sans-serif;
 }
-.name {
+.name{
     display: flex;
     gap: 20px;
     color: #131318;
@@ -15,7 +15,8 @@ font-size: 1.5rem;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-    
+/* border-radius: 15px; */
+ height: 100%;   
 }
 .site-name{
     width: 201px;
@@ -35,6 +36,7 @@ font-size: 1.8rem;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+
 }
 .orange{
     color: #FF5400;
@@ -66,7 +68,8 @@ img{
     url('Images/Group\ 13\ \(1\)\ \(1\).png');
     margin-top: 30px;
     width: 71%;
-    height: 150%;
+    height: 100%;
+    border-radius: 15px;
     /* padding:  50px 100px; */
   }
   .form{
@@ -215,6 +218,9 @@ line-height: 21px; /* 150% */
     .popular{
         display: flex;
         flex-direction: column;
+    }
+    .photo > img{
+        padding-left: 0%;
     }
 
    }
