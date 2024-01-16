@@ -1,0 +1,139 @@
+*{
+    margin: auto;
+    /* padding-left: ; */
+    font-family: 'Mulish', sans-serif;
+}
+.name {
+    display: flex;
+    gap: 20px;
+    color: #131318;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    
+}
+.site-name{
+    width: 201px;
+    height: 45px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+.Travel{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.orange{
+    color: #FF5400;
+}
+img{
+    width: 48px;
+    height: 56.008px;}
+ li{
+    list-style: none;
+    gap: 30px;
+ }
+ ul > li > a{
+    text-decoration: none;
+    
+ }
+ ul{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+ }
+
+ /* 2nd section explore */
+  .explore{
+    /* margin-top: 20px ; */
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+    url('Images/Group\ 39.png');
+    margin-top: 30px;
+    width: 71.5%;
+    height: 100%;
+    /* padding:  50px 100px; */
+  }
+  .form{
+    padding: 25px;
+    width: 70%;
+    gap: 10px;
+    /* display: grid; */
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    margin-top: 10px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+/* background-position: center; */
+    
+  }
+  form > input, button{
+    width: 174px;
+    height: 36px;
+    border-radius: 8px;
+    /* text-align: center; */
+    border: solid 0.5px;
+    
+    
+  }
+  
+  .orange2{
+    background-color: #FF5400;
+    color: white;
+    border: none;
+    width: 174px;
+height: 38px;
+  }
+
+  .description{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 90%;
+padding-top: 20px;
+margin-top: 5px;
+  }
+  h1{
+    color: #FFF;
+font-family: Mulish;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 6%;
+  }
+  #select{
+    width: 174px;
+    height: 38px;
+    border-radius: 8px;
+    /* text-align: center; */
+    color: rgba(19, 19, 24, 0.50);
+    padding-left: 15px;
+  }
+  input::placeholder{
+    align-items: center;
+    padding: 15px;
+  }
+   @media screen and (max-width: 600px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .explore{
+
+    }
+   }
+  
