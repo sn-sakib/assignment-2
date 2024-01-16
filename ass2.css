@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather:wght@400;900&family=Mulish:wght@400;800&family=Open+Sans:wght@400;800&family=Work+Sans:wght@400;500;700&display=swap');
+
 *{
     margin: auto;
     /* padding-left: ; */
@@ -8,7 +11,7 @@
     gap: 20px;
     color: #131318;
 font-family: Mulish;
-font-size: 20px;
+font-size: 1.5rem;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -17,16 +20,18 @@ line-height: normal;
 .site-name{
     width: 201px;
     height: 45px;
+    font-size: 1.8rem;
 }
 .header{
     display: flex;
     justify-content: space-between;
     padding-top: 55px;
+    width: 100%;
 }
 .Travel{
     color: #FF5400;
 font-family: Mulish;
-font-size: 30px;
+font-size: 1.8rem;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -35,9 +40,9 @@ line-height: normal;
     color: #FF5400;
 }
 img{
-    width: 48px;
+    width: 25%;
     height: 56.008px;}
- li{
+    .navbar{
     list-style: none;
     gap: 30px;
  }
@@ -45,7 +50,7 @@ img{
     text-decoration: none;
     
  }
- ul{
+ .navbar{
     display: flex;
     gap: 40px;
     font-size: 18px;
@@ -58,10 +63,10 @@ img{
     text-align: center;
     align-items: center;
     background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
-    url('Images/Group\ 39.png');
+    url('Images/Group\ 13\ \(1\)\ \(1\).png');
     margin-top: 30px;
-    width: 71.5%;
-    height: 100%;
+    width: 71%;
+    height: 150%;
     /* padding:  50px 100px; */
   }
   .form{
@@ -127,13 +132,90 @@ margin-top: 6%;
     align-items: center;
     padding: 15px;
   }
+
+  /* second section */
+  .popular{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5% 12.5%;
+    color: #131318;
+  }
+  .photo > img{
+    width: 100%;
+    height: 100%;
+    margin: 5px 15px;
+
+  }
+  .tour-description{
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    
+    /* color: rgba(19, 19, 24, 0.70); */
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+    /* margin: 35px 55px; */
+  }
+  .second-list{
+    padding: 15px;
+    color: rgba(19, 19, 24, 0.70);
+  }
+  .list-item{
+    padding: 15px;
+    color: rgba(19, 19, 24, 0.70);
+  }
+  .bottom{
+    padding: 15px 0;
+    color: rgba(19, 19, 24, 0.70);
+  }
+  .headline{
+    padding-bottom: 15px;
+  }
+  .top{
+    color: rgba(19, 19, 24, 0.70);
+  }
+
+
+  /* smaller device */
    @media screen and (max-width: 600px) {
     .form{
         display: flex;
         flex-direction: column;
     }
     .explore{
-
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        background-position: center;
     }
+    h1{
+        color: #FFF;
+padding-top: 0;
+font-family: Mulish;
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    }
+    .description{
+        color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+    }
+    .popular{
+        display: flex;
+        flex-direction: column;
+    }
+
    }
   
