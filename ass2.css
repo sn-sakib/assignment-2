@@ -6,6 +6,7 @@
     /* padding-left: ; */
     font-family: 'Mulish', sans-serif;
 }
+
 .name{
     display: flex;
     gap: 20px;
@@ -180,6 +181,158 @@ line-height: 26px; /* 162.5% */
   .top{
     color: rgba(19, 19, 24, 0.70);
   }
+  .maldives{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 5.png');
+    width: 573px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+border-radius: 10px;
+font-family: Mulish;
+font-size: 28px;
+
+font-weight: 800;
+
+  }
+  .indonesia{
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 8.png');
+    width: 573px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+grid-area: indonesia;
+  }
+  .srilanka{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 6.png') ;
+    width: 374px;
+height: 286px;
+text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+grid-area: srilanka;
+  }
+  .northamerica{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 7.png');
+    width: 474px;
+height: 286px;
+text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+grid-area: northamerica;
+  }
+  .kashmir{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 9.png');
+    width: 274px;
+height: 286px;
+text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+grid-area: kashmir;
+  }
+  .bangladesh{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 11.png');
+    width: 473px;
+height: 300px;
+text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+grid-area: bangladesh;
+  }
+  .bandarban{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 10.png');
+    width: 673px;
+height: 300px;
+text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+grid-area: bandarban;
+  }
+  .destination{
+    width: 100%;
+  }
+  /* .malnesia, .sec-row, .third-row{
+    display: flex;
+    /* gap: 1px; 
+    border-radius: 10px;
+    width: 100%;
+    margin-right: -100px;
+    margin-left: -100px;
+  } */
+  
+  .maldives{
+grid-area: maldives;
+  }
+  .country{
+display: grid;
+/* grid-template-areas: 
+"maldives maldives indonesia indonesia"
+"srilanka northamerica northamerica kashmir"
+"bangladesh bandarban bandarban bandarban"; */
+  }
+  .malnesia, .sec-row, .third-row{
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+  }
+.sec-row{
+    gap: 17px;
+}
+.choose{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 50px;
+padding-bottom: 25px;
+}
+.choose-desc{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-bottom: 25px;
+                                                                          
+}
 
 
   /* smaller device */
@@ -221,7 +374,46 @@ line-height: 21px; /* 150% */
     }
     .photo > img{
         padding-left: 0%;
+        margin-top: 30px;
     }
+    .malnesia, .sec-row, .third-row{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 15px;
+        /* width: 335px;
+        height: 376px; */
+        margin-left:  35px;
+        /* border-radius: 8px; */
+      }
+      .bandarban, .bangladesh, .maldives, .srilanka, .northamerica, .kashmir, .indonesia{
+        width: 335px;
+height: 176px;
+margin: 10px;
+border-radius: 12px;
+      }
+      .choose{
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-left: 75px;
+        /* margin-bottom: 0px; */
+      }
+      .choose-desc{
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+        width: 309px;
+        margin-left: 75px;
+      }
 
    }
   
